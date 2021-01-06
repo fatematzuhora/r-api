@@ -1,18 +1,18 @@
-# r-api-plumber
-API endpoint to run R model built using [rplumber.io](https://www.rplumber.io/)
+# r-api
+API endpoint to run R model, built using [rplumber.io](https://www.rplumber.io/)
 
 ## Quick Start
 * Clone the repo:
 ```
-https://github.com/fatematzuhora/r-api-plumber.git
+https://github.com/fatematzuhora/r-api.git
 ```
 * Go inside the folder:
 ```
-cd r-api-plumber
+cd r-api
 ```
 * If you have docker installed on your local machine you just need to go a few steps with Docker to run the project.
 
-* Build a `docker image`:
+* Build a **docker image**:
 ```
 sudo docker build -t r-api .
 ```

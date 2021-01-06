@@ -28,6 +28,10 @@ RUN R -e "install.packages(c( \
     'plumber', \
     'plotly', \
     'promises', \
+    'R6', \
+    'RCurl', \
+    'rmarkdown', \
+    'stringr', \
     'vroom' \
 ))"
 
