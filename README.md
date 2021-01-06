@@ -14,17 +14,23 @@ cd r-api
 
 * Build a **docker image**:
 ```
-sudo docker build -t r-api .
+sudo docker build -t fatematzuhora/r-api .
 ```
 Now you can see the following message on your terminal:
 
-**Successfully tagged r-api:latest**
+**Successfully tagged fatematzuhora/r-api:latest**
 
 This means the docker image has built successfully.
 
+---
+
+**OR** Simply just pull the docker image from the [docker hub](https://hub.docker.com/r/fatematzuhora/r-api):
+```
+sudo docker pull fatematzuhora/r-api
+```
 * Now run the docker image:
 ```
-sudo docker run -it -p 8000:8000 r-api
+sudo docker run -it -p 8000:8000 fatematzuhora/r-api
 ```
 
 ### Sample API Endpoints
